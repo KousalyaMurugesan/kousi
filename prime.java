@@ -4,18 +4,18 @@ class prime
 {
 public static void main(String args[])
 {
-Scanner sc=new Scanner(System.in);
-int a=sc.nextInt();
+Scanner s=new Scanner(System.in);
+int x=s.nextInt();
 int i;
-for(i=2;i<=a-1;i++)
+for(i=2;i<=x-1;i++)
 {
-if(a%i==0)
+if(x%i==0)
 {
 System.out.print("Not a prime number");
 break;
 }
 }
-if(a==i)
+if(x==i)
 {
 System.out.print("prime number");
 }
