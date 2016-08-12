@@ -10,9 +10,13 @@ public class hello {
 		{
 			System.out.println("negative");
 		}
-		else
+		else if(a>0)
 		{
 			System.out.println("positive");
+		}
+		else if(a==0)
+		{
+			System.out.println("zero");	
 		}
 	}
 
