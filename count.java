@@ -5,11 +5,16 @@ class count
    {
      Scanner s=new Scanner(System.in);
      int a[]=new int[5];
-     int cnt;
+    
      for(int i=0;i<a.length;i++)
      {
        a[i]=s.nextInt();
      }
+     findunique(a);
+   }
+   public static void findunique(int a[])
+   {
+      int cnt;
      for(int i=0;i<a.length;i++)
      {
 	cnt=0;
